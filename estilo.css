@@ -1,0 +1,111 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Orbitron', sans-serif;
+    background: url("img/doom\ eternal.jpg") no-repeat center center fixed;
+    background-size: cover;
+    color: #e7dcdc;
+    
+}
+
+header{
+    background: url("img/doom.jpg") no-repeat center center;
+    background-size: cover;
+margin: auto;
+    text-align: center;
+    padding: 7%;
+    border-bottom: 3px solid #000;
+}
+
+
+/*este es el menu*/
+nav {
+    background: #111;
+    border-bottom: 5px solid #660000;
+}
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+nav li {
+    margin: 5px 15px;
+}
+nav a {
+    color: #ff3333;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: 0.3s;
+}
+nav a:hover {
+    color: #fff;
+    text-shadow: 0 0 10px #ff0000;
+}
+/*aqui se acaba el menu el menu*/
+main {
+    display: flex;
+    flex-direction: row;
+}
+#container {
+    border: 50px  #f24242 black;
+    text-align: justify;
+    width: 100%;
+    height: 100%;
+    margin: 90px 10px;
+    background: rgba(15, 15, 15, 0.9);
+    box-shadow: 0 0 25px #ff0000;
+    border: 2px solid #660000;
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+.title{
+    text-align: center;
+    font-size: 50px;
+    color: #b60a0a;
+    text-shadow: 0 0 20px #e12b2b, 0 0 30px #f02525;
+    margin: 0;
+    font-family: 'Times New Roman';
+}
+.article {
+    font-size: 30PX;
+    background: #111;
+    padding: 150px;
+    margin-bottom: 20px;
+    border-left: 5px solid #ff0000;
+    box-shadow: 0 0 15px #330000;
+}
+.article h2 {
+    color: #ff3333;
+    text-shadow: 0 0 10px #ff0000;
+}
+
+
+
+
+
+#content{
+     margin: 90px 10px;
+  border: 50px  #f24242 black;
+    background-color: rgb(206, 47, 35);
+    color: black;
+    font-family:'Courier New', Courier, monospace, sans-serif;
+    font-weight: bold;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+     margin: 90px 10px;
+    float: left;
+    overflow: hidden;
+    box-shadow: 0 0 25px #ff0000;
+    border: 2px solid #660000;
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
